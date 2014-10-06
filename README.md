@@ -2,6 +2,10 @@
 
 by Lars Nedberg & Henrik Loennechen
 
+This repo is a fork of the original
+Owner Arne-Richard Hofsøy (arhplanet@gmail.com). 
+
+
 #####What is it?#####
 We have two parts of the application, the admin part and the user part.
 The user part is basically a fancy, radio button-styled questionnaire.
