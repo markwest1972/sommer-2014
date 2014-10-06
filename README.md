@@ -2,8 +2,7 @@
 
 by Lars Nedberg & Henrik Loennechen
 
-This repo is a fork of the original
-Owner Arne-Richard Hofsøy (arhplanet@gmail.com). 
+This repo is a fork of the original https://github.com/henloen/sommer-2014 This version Owner is: Arne-Richard Hofsøy (arhplanet@gmail.com).
 
 
 #####What is it?#####
