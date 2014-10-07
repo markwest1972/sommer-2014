@@ -34,12 +34,12 @@
 					<th>Kjønn</th>
 					<th>Sivilstatus</th>
 					<th>Utdannelse</th>
-					<th>Programmeringsstil</th>
+					
 					<th>Personlighet</th>
-					<th>Hype-preferanse</th>
+					
 					<th>Musikk</th>
 					<th>Type</th>
-					<th>Favorittgode</th>
+					<th>Drømmegode</th>
 					<th>Planer for kvelden</th>
 				</tr>
 			</thead>
@@ -57,12 +57,12 @@
 					<td>{{answer.kjonn | prettyString}}</td>
 					<td>{{answer.sivilstatus | prettyString}}</td>
 					<td>{{answer.utdannelse | prettyString}}</td>
-					<td>{{answer.programmeringsstil | prettyString}}</td>
+					
 					<td>{{answer.personlighet | prettyString}}</td>
-					<td>{{answer.hypepreferanse | prettyString}}</td>
+					
 					<td>{{answer.musikk | prettyString}}</td>
 					<td>{{answer.type | prettyString}}</td>
-					<td>{{answer.favorittgode | prettyString}}</td>
+					<td>{{answer.drommegode | prettyString}}</td>
 					<td>{{answer.planerforkvelden | prettyString}}</td>
 					<td>
 						
@@ -82,12 +82,10 @@
 										<b>Kjønn:</b> {{oneAnswer.kjonn | prettyString}}<br>
 										<b>Sivilstatus:</b> {{oneAnswer.sivilstatus | prettyString}}<br>
 										<b>Utdannelse: </b> {{oneAnswer.utdannelse | prettyString}}<br>
-										<b>Programmeringsstil: </b> {{oneAnswer.programmeringsstil | prettyString}}<br>
 										<b>Personlighet: </b> {{oneAnswer.personlighet | prettyString}}<br>
-										<b>Hype-preferanse: </b> {{oneAnswer.hypepreferanse | prettyString}}<br>
 										<b>Musikk: </b> {{oneAnswer.musikk | prettyString}}<br>
 										<b>Type: </b> {{oneAnswer.type | prettyString}}<br>
-										<b>Favorittgode: </b> {{oneAnswer.favorittgode | prettyString}}<br>
+										<b>Drømmegode: </b> {{oneAnswer.drommegode | prettyString}}<br>
 										<b>Planer for kvelden: </b> {{oneAnswer.planerforkvelden | prettyString}}<br>
 									</div>
 									<div ng-show="oneAnswer.locked === 1" class="modal-body">

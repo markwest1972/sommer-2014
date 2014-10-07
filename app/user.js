@@ -60,17 +60,16 @@ Is called from the CREATE method of the Answers service.
 Converts the data values into a new 'values' object for easier naming, which is passed on to the database script.
 */
 function insertAnswer(req, res) {
+	//console.log(JSON.stringify(req.body));
 	var values = {
 		kjonn: req.body.kjonn,
 		sivilstatus: req.body.sivilstatus, 
 		utdannelse: req.body.utdannelse, 
-		programmeringsstil: req.body.programmeringsstil, 
 		personlighet: req.body.personlighet, 
-		hypepreferanse: req.body.hypepreferanse, 
-		musikk: req.body.musikk, 
+		musikk: req.body.musikk, 	
 		type: req.body.type,
-		favorittgode: req.body.favorittgode, 
-		planerforkvelden: req.body.planerforkvelden
+		drommegode: req.body.drommegode, 
+		planerforkvelden: req.body.planerforkvelden		
 	};
 	db.insertAnswer(values, function(err, rows) {
 		if (err) {

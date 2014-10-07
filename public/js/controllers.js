@@ -346,13 +346,17 @@ angular.module("bodApp.controllers", [])
 		*/
 		$scope.getAnswers = function() {
 			Answers.getAll(true).success(function (data) {
+					console.log(JSON.stringify(data));
 					$scope.answers = data;
 					$scope.$broadcast('draw');
 			});
 		};
 
 		$scope.getAnswers();
+		
 		$scope.questions = Questions.questions;
+		console.log(JSON.stringify( Questions.questions))
+		
 		
 	}])
 

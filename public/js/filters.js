@@ -28,8 +28,8 @@ angular.module("bodApp.filters", [])
 					case "gift/samboer":
 						return "Gift/Samboer";
 						
-					case "skilt":
-						return "Skilt";
+					case "kjaereste":
+						return "Kjæreste";
 						
 					case "singel":
 						return "Singel";
@@ -43,11 +43,11 @@ angular.module("bodApp.filters", [])
 					case "bachelor":
 						return "Bachelor";
 						
-					case "selvstudertrover":
-						return "Selvstudert røver";
+					case "halvstudertrover":
+						return "Halvstudert røver";
 						
-					case "annet":
-						return "Annet";
+					case "utdannelse":
+						return "Utdannelse?";
 						
 					case "batenblirtil":
 						return "Båten blir til mens man ror";
@@ -88,8 +88,8 @@ angular.module("bodApp.filters", [])
 					case "vglista":
 						return "VG-lista";
 						
-					case "disco":
-						return "Disco";
+					case "hiphoprandb":
+						return "Hip-Hop/R&B";
 						
 					case "tronderrock":
 						return "Trønderrock";
@@ -106,8 +106,8 @@ angular.module("bodApp.filters", [])
 					case "alternativ":
 						return "Alternativ";
 						
-					case "youngster":
-						return "Youngster";
+					case "slask":
+						return "Slask";
 						
 					case "coolcat":
 						return "Cool Cat";
@@ -115,41 +115,42 @@ angular.module("bodApp.filters", [])
 					case "hipster":
 						return "Hipster";
 						
-					case "gammelringrev":
-						return "Gammel Ringrev";
+					case "ambisios":
+						return "Ambisiøs";
 						
 					case "nerd":
 						return "Nerd";
 						
-					case "endresivilstatus":
-						return "Endre sivilstatus";
+					case "paasjekkern":
+						return "På sjekker'n";
 						
-					case "smiskemedsjefen":
-						return "Smiske med sjefen";
+					case "trene":
+						return "Trene";
 						
-					case "mingle":
-						return "Mingle";
+					case "lesefag":
+						return "Hjem å lese fag";
 						
-					case "kode":
-						return "Kode";
+					case "utpaabyen":
+						return "Ut på by'n";
 						
 					case "nytelivet":
 						return "Nyte livet";
 						
-					case "fribar":
-						return "Fri bar på julebordet";
-						
 					case "gadgetkonto":
-						return "Gadgetkonto";
+						return "Gadget-konto";
+						
+					case "brusautomat":
+						return "BrusAutomat";
 						
 					case "kurskonferanse":
 						return "Kurs og konferanser";
+					
+					case "dobbelpensjon":
+						return "Dobbel pensjon";
 						
-					case "frikantine":
-						return "Fri kantine";
+					case "massasje":
+						return "Massasje på jobben";
 						
-					case "pensjon":
-						return "Pensjon";
 				}
 			}
 		};

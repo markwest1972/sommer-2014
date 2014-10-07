@@ -96,7 +96,7 @@ angular.module("bodApp.services", [])
 							output: "Kvinne",
 							value : "kvinne"
 						}
-					],
+					]
 				},
 				Bsivilstatus : {
 					title: "Sivilstatus",
@@ -107,8 +107,8 @@ angular.module("bodApp.services", [])
 							value: "gift/samboer"
 						},
 						{
-							output: "Skilt",
-							value: "skilt"
+							output: "Kjæreste",
+							value: "kjaereste"
 						},
 						{
 							output: "Singel",
@@ -117,10 +117,12 @@ angular.module("bodApp.services", [])
 						{
 							output: "It's complicated",
 							value: "complicated"
-						},
+						}
 					]
-				},
-				CUtdannelse : {
+				}
+			},
+			BsecondCol: {
+				AUtdannelse : {
 					title: "Utdannelse",
 					name : "utdannelse",
 					options : [
@@ -133,36 +135,12 @@ angular.module("bodApp.services", [])
 							value: "bachelor"
 						},
 						{
-							output: "Selvstudert røver",
-							value: "selvstudertrover"
+							output: "Halvstudert røver",
+							value: "halvstudertrover"
 						},
 						{
-							output: "Annet",
+							output: "Utdannelse?",
 							value: "annet"
-						}
-					]
-				}
-			},
-			BsecondCol: {
-				Aprogrammeringsstil : {
-					title: "Programmeringsstil",
-					name : "programmeringsstil",
-					options : [
-						{
-							output: "Båten blir til mens man ror",
-							value: "batenblirtil"
-						},
-						{
-							output: "Det ordner seg",
-							value: "detordnerseg"
-						},
-						{
-							output: "Ordenung Muss Sein",
-							value: "ordenungmusssein"
-						},
-						{
-							output: "Quick and dirty",
-							value: "quickanddirty"
 						}
 					]
 				},
@@ -183,32 +161,36 @@ angular.module("bodApp.services", [])
 							value: "ekstrovertpluss"
 						}
 					]
-				},
-				Chypepreferanse : {
-					title: "Hype-preferanse",
-					name : "hypepreferanse",
-					options : [
-						{
-							output: "Big Data",
-							value: "bigdata"
-						},
-						{
-							output: "Internet of Things",
-							value: "internetofthings"
-						},
-						{
-							output: "Lær Kidsa Koding",
-							value: "laerkidsakoding"
-						},
-						{
-							output: "Microservices",
-							value: "microservices"
-						}
-					]
 				}
 			},
 			CthirdCol: {
-				Amusikk : {
+				Atype : {
+					title: "Type",
+					name : "type",
+					options : [
+						{
+							output: "Hipster",
+							value: "hipster"
+						},
+						{
+							output: "Cool Cat",
+							value: "coolcat"
+						},
+						{
+							output: "Slask",
+							value: "slask"
+						},
+						{
+							output: "Ambisiøs",
+							value: "ambisios"
+						},
+						{
+							output: "Nerd",
+							value: "nerd"
+						}
+					]
+				},
+				Bmusikk : {
 					title: "Musikk",
 					name : "musikk",
 					options : [
@@ -221,12 +203,8 @@ angular.module("bodApp.services", [])
 							value: "vglista"
 						},
 						{
-							output: "Disco",
-							value: "disco"
-						},
-						{
-							output: "Trønderrock",
-							value: "tronderrock"
+							output: "Hip-Hop/R&B",
+							value: "hiphoprandb"
 						},
 						{
 							output: "Metal",
@@ -245,46 +223,19 @@ angular.module("bodApp.services", [])
 							value: "alternativ"
 						}
 					]
-				},
-				Btype : {
-					title: "Type",
-					name : "type",
-					options : [
-						{
-							output: "Youngster",
-							value: "youngster"
-						},
-						{
-							output: "Cool Cat",
-							value: "coolcat"
-						},
-						{
-							output: "Hipster",
-							value: "hipster"
-						},
-						{
-							output: "Gammel Ringrev",
-							value: "gammelringrev"
-						},
-						{
-							output: "Nerd",
-							value: "nerd"
-						}
-					]
 				}
 			},
 			DfourthCol: {
-				
 				Afavorittgode : {
-					title: "Favorittgode på jobb",
-					name : "favorittgode",
+					title: "Drømmegode",
+					name : "drommegode",
 					options : [
 						{
 							output: "Fri bar på julebord",
 							value: "fribar"
 						},
 						{
-							output: "Gadgetkonto",
+							output: "Gadget-konto",
 							value: "gadgetkonto"
 						},
 						{
@@ -292,34 +243,39 @@ angular.module("bodApp.services", [])
 							value: "kurskonferanse"
 						},
 						{
-							output: "Fri kantine",
-							value: "frikantine"
+							output: "Dobbel pensjon",
+							value: "dobbelpensjon"
 						},
 						{
-							output: "Pensjon",
-							value: "pensjon"
+							output: "Massasje på jobben",
+							value: "massasje"
+						},	
+						{
+							output: "Brusautomat",
+							value: "brusautomat"
 						}
-					]},
-				
+						
+					]
+				},
 				Bplanerforkvelden : {
 					title: "Planer for kvelden",
 					name : "planerforkvelden",
 					options : [
 						{
-							output: "Endre sivilstatus",
-							value: "endresivilstatus"
+							output: "På sjekker'n",
+							value: "paasjekkern"
 						},
 						{
-							output: "Smiske med sjefen",
-							value: "smiskemedsjefen"
+							output: "Trene",
+							value: "trene"
 						},
 						{
-							output: "Mingle",
-							value: "mingle"
+							output: "Hjem å lese fag",
+							value: "lesefag"
 						},
 						{
-							output: "Kode",
-							value: "kode"
+							output: "Ut på by'n",
+							value: "utpaabyen"
 						},
 						{
 							output: "Nyte livet",
@@ -340,12 +296,10 @@ angular.module("bodApp.services", [])
 					kjonn : recAnswer.kjonn,
 					sivilstatus : recAnswer.sivilstatus,
 					utdannelse : recAnswer.utdannelse,
-					programmeringsstil : recAnswer.programmeringsstil,
 					personlighet : recAnswer.personlighet,
-					hypepreferanse : recAnswer.hypepreferanse,
-					musikk : recAnswer.musikk,
 					type : recAnswer.type,
-					favorittgode : recAnswer.favorittgode,
+					musikk : recAnswer.musikk,
+					drommegode : recAnswer.drommegode,
 					planerforkvelden : recAnswer.planerforkvelden
 				};
 			},

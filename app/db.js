@@ -58,13 +58,14 @@ also contains a comment to relax two warnings of JSHint
 */
 function insertAnswer(values, callback) {
 	/*jshint multistr: true, laxbreak: true*/
+	console.log(values);
 	query("insert into bod.answers(kjonn, sivilstatus, utdannelse, \
-		programmeringsstil, personlighet, hypepreferanse, musikk, type, favorittgode, \
+		personlighet, musikk, type, drommegode, \
 		planerforkvelden)" +
 		"values ('" + values.kjonn +"', '" + values.sivilstatus
-		 + "', '" + values.utdannelse +"', '" + values.programmeringsstil +"', '" + values.personlighet
-		 + "', '" + values.hypepreferanse +"', '" + values.musikk  +"', '" + values.type
-		 + "', '" + values.favorittgode +"', '" + values.planerforkvelden + "');",callback);
+		 + "', '" + values.utdannelse +"', '" + values.personlighet
+		 +"', '" + values.musikk  +"', '" + values['type']
+		 + "', '" + values.drommegode +"', '" + values.planerforkvelden + "');",callback);
 }
 
 //delete all answers
@@ -118,7 +119,7 @@ function deleteWinners(callback) {
 
 //export answers to CSV-file without the status fields (locked and processed)
 function exportAnswers(callback) {
-	query("SELECT id_answers, kjonn, sivilstatus, utdannelse, programmeringsstil, personlighet, hypepreferanse, musikk, type, favorittgode, planerforkvelden from bod.answers", callback);
+	query("SELECT id_answers, kjonn, sivilstatus, personlighet, utdannelse, musikk, type, drommegode, planerforkvelden from bod.answers", callback);
 			// INTO OUTFILE '" + exportPath + "answers" + dateHelper() + ".csv'\
 }
 

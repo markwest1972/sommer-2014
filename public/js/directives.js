@@ -38,7 +38,7 @@ angular.module("bodApp.directives", [])
 			 	var height = ctx.canvas.height = window.innerHeight;
 			
 				var questions = scope.questions;
-				
+				console.log(scope.answers);
 				
 				var categories = [];
 				
