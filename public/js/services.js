@@ -270,7 +270,7 @@ angular.module("bodApp.services", [])
 							value: "trene"
 						},
 						{
-							output: "Hjem å lese fag",
+							output: "Hjem og lese fag",
 							value: "lesefag"
 						},
 						{
@@ -278,8 +278,8 @@ angular.module("bodApp.services", [])
 							value: "utpaabyen"
 						},
 						{
-							output: "Nyte livet",
-							value: "nytelivet"
+							output: "Sofaen venter",
+							value: "sofaenventer"
 						}
 					]
 				},

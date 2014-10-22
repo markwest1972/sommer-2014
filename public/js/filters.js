@@ -48,7 +48,7 @@ angular.module("bodApp.filters", [])
 						
 					case "utdannelse":
 						return "Utdannelse?";
-						
+					
 					case "batenblirtil":
 						return "Båten blir til mens man ror";
 						
