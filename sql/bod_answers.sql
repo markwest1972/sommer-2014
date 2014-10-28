@@ -39,24 +39,3 @@ CREATE TABLE `answers` (
   PRIMARY KEY (`id_answers`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `answers`
---
-
-LOCK TABLES `answers` WRITE;
-/*!40000 ALTER TABLE `answers` DISABLE KEYS */;
-INSERT INTO `answers` VALUES (1,'kvinne','skilt','bachelor','batenblirtil','introvert','internetofthings','rave','hipster','frikantine','endresivilstatus',0,0),(2,'kvinne','singel','bachelor','batenblirtil','ekstrovertpluss','laerkidsakoding','klassisk','youngster','kurskonferanse','smiskemedsjefen',0,0),(3,'kvinne','gift/samboer','selvstudertrover','quickanddirty','ekstrovertpluss','microservices','rock','gammelringrev','kurskonferanse','endresivilstatus',0,0),(4,'mann','singel','master','batenblirtil','introvert','microservices','alternativ','gammelringrev','pensjon','nytelivet',0,0),(5,'mann','singel','bachelor','ordenungmusssein','ekstrovert','microservices','rave','hipster','gadgetkonto','kode',0,0);
-/*!40000 ALTER TABLE `answers` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2014-08-01 11:24:04
