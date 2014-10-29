@@ -25,6 +25,7 @@ angular.module("bodApp.filters", [])
 						
 					case "kvinne":
 						return "Kvinne";
+						
 					case "gift/samboer":
 						return "Gift/Samboer";
 						
@@ -46,7 +47,7 @@ angular.module("bodApp.filters", [])
 					case "halvstudertrover":
 						return "Halvstudert røver";
 						
-					case "utdannelse":
+					case "annet":
 						return "Utdannelse?";
 					
 					case "batenblirtil":
@@ -133,6 +134,9 @@ angular.module("bodApp.filters", [])
 					case "utpaabyen":
 						return "Ut på by'n";
 						
+					case "sofaenventer":
+						return "Sofaen venter"
+						
 					case "nytelivet":
 						return "Nyte livet";
 						
@@ -150,6 +154,10 @@ angular.module("bodApp.filters", [])
 						
 					case "massasje":
 						return "Massasje på jobben";
+						
+				    case "fribar":
+						return "Fri bar";
+						
 						
 				}
 			}
