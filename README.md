@@ -2,7 +2,7 @@
 
 by Lars Nedberg & Henrik Loennechen
 
-This repo is a fork of the original https://github.com/henloen/sommer-2014 This version Owner is: Arne-Richard Hofsøy (arhplanet@gmail.com).
+This repo is a fork of the original https://github.com/henloen/sommer-2014.  This version Owner is: Arne-Richard Hofsøy (arhplanet@gmail.com).
 
 
 #####What is it?#####
@@ -36,6 +36,3 @@ A documentation on the concept, the use of the application, the intended users, 
 6. Access the application at yourip:theportspecified (e.g. localhost:3000).
 
 For more detailed instructions, please consult the documentation.
-
-
-
